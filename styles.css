@@ -9,3 +9,21 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.projects-container{
+    display: flex;
+    justify-content: space-around;
+}
+.project-image{
+    width: 400px;   
+}
+.project-images{
+    display: flex;
+    justify-content: center;
+    width: 50%;   
+}
+.projects-header{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
