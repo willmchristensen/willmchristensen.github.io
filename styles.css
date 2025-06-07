@@ -17,22 +17,19 @@ nav{
     position: relative;
     display: flex;
     justify-content: center;
+    height: 100%;
+}
+.project-images-slider-container{
     width: 50%;
     height: 400px;
 }
 .project-image{
-    /* setting this position to absolute, places ALL images within the container +- their specified top/bottom/left/right */
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border: 3px solid black;
     border-radius: 5px;
-}
-.sharebnb{
-    z-index: -1;
-    top: 25px;
-    left: 25px;
 }
 .projects-header{
     width: 50%;
